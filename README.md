@@ -2,7 +2,7 @@
 
 ## Frontend, Backend & FullStack
 ### Frontend
-- [ ] HTML: Hello World
+- [x] HTML: Hello World
 - [ ] HTML: Exemplo de página
 - [ ] HTML & CSS: Exemplo de página
 - [ ] HTML, CSS & JavaScript: Exemplo de página
