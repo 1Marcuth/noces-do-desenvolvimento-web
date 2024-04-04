@@ -11,7 +11,7 @@
 - [x] HTML, CSS & JavaScript: Exemplo de projeto
 
 ### Backend
-- [ ] JavaScript: Web API - Olá Mundo
+- [x] JavaScript: Web API - Olá Mundo
 - [ ] JavaScript: Web API - Recebendo dados do Frontend
 
 ### FullStack
