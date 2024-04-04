@@ -2,10 +2,10 @@
 
 ## Frontend, Backend & FullStack
 ### Frontend
-- [x] HTML: Hello World
+- [x] HTML: Olá Mundo
 - [x] HTML: Exemplo de projeto
-- [ ] HTML & CSS: Título vermelho
-- [ ] HTML & CSS: Exemplo de projeto
+- [x] HTML & CSS: Olá Mundo
+- [x] HTML & CSS: Exemplo de projeto
 - [ ] HTML & Javascript: Alerta
 - [ ] HTML, CSS & JavaScript: Exemplo de projeto
 
