@@ -3,9 +3,11 @@
 ## Frontend, Backend & FullStack
 ### Frontend
 - [x] HTML: Hello World
-- [ ] HTML: Exemplo de página
-- [ ] HTML & CSS: Exemplo de página
-- [ ] HTML, CSS & JavaScript: Exemplo de página
+- [x] HTML: Exemplo de projeto
+- [ ] HTML & CSS: Título vermelho
+- [ ] HTML & CSS: Exemplo de projeto
+- [ ] HTML & Javascript: Alerta
+- [ ] HTML, CSS & JavaScript: Exemplo de projeto
 
 ### Backend
 - [ ] JavaScript: WEB API
