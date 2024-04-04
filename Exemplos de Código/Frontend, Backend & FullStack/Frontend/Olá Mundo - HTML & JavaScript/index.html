@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplos de uso do JavScript</title>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <h2>Exibição de Alertas</h2>
+    <button onclick="exibirAlerta()">Clique aqui!</button>
+    <hr>
+    <h2>Manipulação do DOM</h2>
+    <p id="paragrafo-a-ser-editado">Texto inicial :D</p>
+    <button onclick="editarTexto()">Editar texto</button>
+    <hr>
+    <h2>Busca de dados externos</h2>
+    <div>
+        <label for="nome-de-usuario-github">Nome de usuário do GitHub:</label>
+        <input id="nome-de-usuario-github" name="nome-de-usuario-github" type="text">
+    </div>
+    <div id="resultado"></div>
+    <br>
+    <button onclick="buscarDadosDeUsuarioGitHub()">Buscar dados</button>
+    <script src="./roteiro.js"></script>
+</body>
+</html>
