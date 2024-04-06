@@ -12,7 +12,7 @@
 
 ### Backend
 - [x] JavaScript: Web API - Olá Mundo
-- [ ] JavaScript: Web API - Recebendo dados do Frontend
+- [x] JavaScript: Web API - Recebendo dados do Frontend
 
 ### FullStack
 - [ ] [Frontend: HTML, CSS & JavaScript; Backend: JavaScript]: Exemplo de conexão entre Frontend e Backend
