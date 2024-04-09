@@ -1,12 +1,15 @@
 import express from "express"
 
-const porta = 3000
+const porta = 3001
 const app = express()
 
 const mensagens = []
 
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
+
 app.post("/enviar-mensagem", (requisicao, resposta) => {
-    const { nome, email, assunto, mensagem } = requisicao.query
+    const { nome, email, assunto, mensagem } = requisicao.body
 
     mensagens.push({
         autor: nome,

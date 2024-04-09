@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Técnicos em Informática</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <header class="cabecario-da-pagina">
+        <h1 class="titulo-do-cabecario">Técnicos em Informática</h1>
+        <nav class="navegacao-do-cabecario">
+            <ul>
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./destaques.html">Destaques</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="espacamento"></div>
+    <main class="conteudo-principal">
+        <p>Olá pessoas! Sejam bem-vindos ao nosso site de demonstração de como funciona as tecnologias <i><b>HTML</b></i>, <i><b>CSS</b></i> & <i><b>JavaScript</b></i>.</p>
+        <img src="./ativos/images/galera.jpeg" alt="Galera que faz o curso">
+        <hr>
+        <h2>Alunos em destaque</h2>
+        <p>Alguns alunos se destacam em nossa sala por alguns comportamentos e características bem específicas:</p>
+        <ul>
+            <li><b>CEO da Coca-Cola:</b> Heitor</li>
+            <li><b>Editor freelancer & Hacker da NASA:</b> Guilhermy</li>
+            <li><b>Garoto de programa:</b> Thiago</li>
+            <li><b>Bobão:</b> Gustavo Lima</li>
+            <li><b>Francisco:</b> Francisco&#x1F44D;</li>
+            <li><b>Locutor:</b> Kauan</li>
+            <li><b>Presente:</b> Alex</li>
+        </ul>
+        <hr>
+        <h2>Calculadora Legal &#x1F603;</h2>
+        <div class="calculadora">
+            <input name="numero1" id="numero1" type="number" value="0">
+            <select name="opearador" id="operador">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">×</option>
+                <option value="/">÷</option>
+            </select>
+            <input name="numero2" id="numero2" type="number" value="0">
+            <button onclick="calcularResultado()">=</button>
+            <span id="resultado">0</span>
+        </div>
+    </main>
+    <footer class="rodape-da-pagina">
+        <h2>Nos siga em nossas redes sociais</h2>
+        <ul>
+            <li><a target="_blank" href="https://www.instagram.com/tecnicos.informatica/">Instagram</a></li>
+        </ul>
+        <p>Desenvolvido por <a href="https://github.com/1Marcuth">Marcuth</a></p>
+    </footer>
+    <script src="./roteiro.js"></script>
+</body>
+</html>
