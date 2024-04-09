@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Técnicos em Informática - Contato</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <header class="cabecario-da-pagina">
+        <h1>Técnicos em Informática</h1>
+        <nav class="navegacao-do-cabecario">
+            <ul>
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./destaques.html">Destaques</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="espacamento"></div>
+    <main class="conteudo-principal">
+        <h1>Contato</h1>
+        <p>Entre em contato conosco através do formulário abaixo:</p>
+        <form action="https://recebendo-dados-do-frontend.vercel.app/enviar-mensagem/" method="post" class="formulario-contato">
+            <div class="linha">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div class="linha">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="linha">
+                <label for="assunto">Assunto:</label>
+                <input type="text" name="assunto" id="assunto">
+            </div>
+            <div class="linha">
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer class="rodape-da-pagina">
+        <h2>Nos siga em nossas redes sociais</h2>
+        <ul>
+            <li><a target="_blank" href="https://www.instagram.com/tecnicos.informatica/">Instagram</a></li>
+        </ul>
+        <p>Desenvolvido por <a href="https://github.com/1Marcuth">Marcuth</a></p>
+    </footer>
+</body>
+</html>
